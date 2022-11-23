@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <string.h>
+#include <limits.h>
 
 int _printf(const char *format, ...);
 int (*get_func(char x))(va_list args);
